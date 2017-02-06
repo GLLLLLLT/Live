@@ -109,8 +109,8 @@ deb ()	{
 	# Installing necessary packages (Squid, apache2-utils for htpassword and dependencies)
 	apt-get install apache2-utils squid3 -y
 	# Asking user to set a username via read and writing it into $usrn
-	usrn=Live
-	usrp=Live
+	usrn=jay
+	usrp=jay
 	# Creating user with username from $usrn and asking user to set a password
 	htpasswd -c /etc/squid3/passwd $usrn
 	# Downloading Squid configuration
@@ -130,8 +130,8 @@ deb8 ()	{
 	# Installing necessary packages (Squid, apache2-utils for htpassword and dependencies)
 	apt-get install apache2-utils squid3 -y
 	# Asking user to set a username via read and writing it into $usrn
-	usrn=Live
-	usrp=Live
+	usrn=jay
+	usrp=jay
 	# Creating user with username from $usrn and asking user to set a password
 	htpasswd -b -c /etc/squid3/passwd $usrn $usrp
 	# Downloading Squid configuration
@@ -151,8 +151,8 @@ ubt ()	{
 	# Installing necessary packages (Squid, apache2-utils for htpassword and dependencies)
 	apt-get install apache2-utils squid3 -y
 	# Asking user to set a username via read and writing it into $usrn
-	usrn=Live
-	usrp=Live
+	usrn=jay
+	usrp=jay
 	# Creating user with username from $usrn and asking user to set a password
 	htpasswd -b -c /etc/squid3/passwd $usrn $usrp
 	# Downloading Squid configuration
@@ -172,8 +172,8 @@ fed () {
 	# Installing necessary packages (Squid, httpd-tools for htpasswd and dependencies)
 	yum install squid httpd-tools -y
 	# Asking user to set a username via read and writing it into $usrn
-	usrn=Live
-	usrp=Live
+	usrn=jay
+	usrp=jay
 	# Creating user with username from $usrn and asking user to set a password
 	htpasswd -c /etc/squid/passwd $usrn
 	# Downloading necessary Squid.conf for the corresponding OS & system architecture
